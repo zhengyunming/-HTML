@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>简单的小米排版</title>
+		<!-- 11月28日做标准流搭配浮动布局 -->
+	</head>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.background{
+			height: 120px;
+			background-color: gray;
+		}
+		.nave{
+			height: 40px;
+			width: 100%;
+			background-color: gray;
+			margin-top: 10px;
+		}
+		.search {
+			width: 1226px;
+			height: 100px;
+			background-color: gray;
+			margin: 10px auto;
+		}
+		.banner{
+			background-color: #FFC0CB;
+			width: 1226px;
+			margin: 10px auto;
+		}
+		.banner .list{
+			float: left;
+			width: 236px;
+			height: 460px;
+			background-color: aqua;
+		}
+		.banner .list-pic{
+			float: left;
+			width: 990px;
+			height: 460px;
+			background-color: aquamarine;
+		}
+		.supper{
+			background-color: brown;
+			margin: 10px auto;
+			width: 1226px;
+			height: 300px;
+			clear: both;
+		}
+		.supper div{
+			width: 299px;
+			height: 300px;
+			background-color: gray;
+			margin-right: 10px;
+			float: left;
+		}
+		.supper .1{
+			clear: both;
+			
+		}
+		.supper .clear{
+			margin-right: 0px;
+		}
+		.three{
+			height: 600xp;
+			width: 1226px;
+			background-color: red;
+			margin: 10px auto;
+			overflow: hidden;
+		}
+		.three .a1{
+			float: left;
+			height: 600px;
+			width: 299px;
+			background-color: #FFC0CB;
+			margin-right: 10px;
+		}
+		.three .a2{
+			float: left;
+			height: 600px;
+			width: 299px;
+			background-color: #FFC0CB;
+			margin-right: 10px;
+		}	
+		.three .a3 {
+			float: left;
+			height: 295px;
+			width: 100px;
+			background-color: green;
+		}
+		.three .a5 {
+			float: left;
+			height: 295px;
+			width: 196px;
+			background-color: green;
+			margin-left: 10px;
+		}
+		.footer{
+			margin: 0 auto;
+			width: 100%;
+			height: 165px;
+			background-color: #FFA500;
+		}
+		p{
+			text-align: center;
+			padding-top: 100px;
+		}
+	</style>
+	<body>
+<div class="background">顶部图片</div>
+<div class="nave">导航栏</div>
+<div class="search">导航搜索条</div>
+<div class="banner">	
+<div class="list">列表</div>
+<div class="list-pic">轮播图</div>
+<div style="clear: both;"></div>
+</div>
+<div class="supper">
+	<div>图片1</div>
+	<div>图片2</div>
+	<div>图片3</div>
+	<div class="clear">图片4</div>
+</div>
+<div class="three">
+	<div class="a1"></div>
+	<div class="a2"></div>
+	<div style="float: left;">
+	<div class="a5" style="margin-left: 0px;"></div>
+	<div class="a5"></div>
+	<div class="a5"></div>
+	</div>
+	<div style="float: left; margin-top: 10px;">
+	<div class="a5" style="margin-left: 0px;"></div>
+	<div class="a5"></div>
+	<div class="a5"></div>
+	</div>
+</div>
+<div class="footer">
+	<p>footer</p>
+</div>
+</body>
+</html>
